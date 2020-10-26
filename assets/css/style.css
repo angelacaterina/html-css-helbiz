@@ -11,7 +11,6 @@ i {
 .pl_1{
   padding-left: 1rem;
 }
-
 /* header rules */
 header{
   position: relative;
@@ -138,7 +137,7 @@ a{
 }
 
 #info .row{
-  padding: 40;
+  padding: 40px;
 }
 .smart_mobility{
   position: relative;
@@ -231,4 +230,67 @@ a{
 .icons a{
   color: black;
   font-size: 20px;
+}
+
+/* #site_footer */
+#site_footer{
+  background: black;
+  color: white;
+  padding-bottom: 100px;
+}
+
+#site_footer .footer_header{
+  border-bottom: 1px inset #6A6A6A;
+  padding: 30px 0;
+}
+
+.footer_logo img{
+  height: 24px;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+#site_footer h4{
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.col_footer{
+  margin-top: 10px;
+}
+.col_footer li{
+  list-style: none;
+  line-height: 2;
+}
+.col_footer a{
+  color: #6A6A6A;
+}
+
+#site_footer .icons_white li{
+  list-style: none;
+  display: inline-block;
+}
+
+#site_footer .icons_white a{
+  color: white;
+}
+
+.conditions{
+  height: 100px;
+  line-height: 100px;
+  padding: 0;
+  border-bottom: 1px inset #6A6A6A;
+}
+.conditions .col-lg-3 > a{
+  color: white;
+  font-size: 12px;
+}
+
+.row .apps {
+  text-align: center;
+}
+.apps img{
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin: 20px 1rem;
 }
