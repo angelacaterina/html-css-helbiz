@@ -127,7 +127,7 @@
 /* /offsets large screen*/
 
 /* Media Query medium */
-@media all and (min-width: 769px) and (max-width: 1200px){
+@media all and (min-width: 768px) and (max-width: 1024px){
   /* colums medium screen*/
   .col-md-1{
     width: calc((100% / 12) * 1);
