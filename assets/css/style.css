@@ -2,9 +2,8 @@ body{
   font-family: sans-serif;
 }
 /* utility classes */
-.bg{
-  background: grey;
-  height: 100px;
+i {
+  margin: 10px;
 }
 .pr_1{
   padding-right: 1rem;
@@ -12,6 +11,7 @@ body{
 .pl_1{
   padding-left: 1rem;
 }
+
 /* header rules */
 header{
   position: relative;
@@ -132,7 +132,103 @@ a{
   margin: 80px 30px 30px;
 }
 
-.text{
+#banner .text{
   margin: 80px 30px 30px;
   line-height: 2;
+}
+
+#info .row{
+  padding: 40;
+}
+.smart_mobility{
+  position: relative;
+  height: 550px;
+  padding: 20px;
+  background-image: url('../img/scooter.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#info  .smart_mobility .text{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+
+#info h2{
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: normal;
+}
+#info p{
+  padding: 20px;
+  line-height: 1.5;
+}
+#info a{
+  color: white;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+#info .card{
+  height: 450px;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  padding-top: 40px;
+}
+
+#info .app > .card {
+  background: #374858;
+  position: relative;
+  overflow: hidden;
+}
+#info h3{
+  font-size: 24px;
+}
+
+
+#info .app > .card img{
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+#info .around > .card{
+  background-image: url('../img/city.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+#image_social{
+  height: 400px;
+  position: relative;
+  background: grey;
+  /* background-image: url('../img/'); */
+  background-repeat: no-repeat;
+  margin: 2rem 0;
+}
+
+.social_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background: white;
+  padding: 40px 80px;
+}
+#image_social .icons li {
+  text-decoration: none;
+  display: inline-block;
+}
+.icons a{
+  color: black;
+  font-size: 20px;
 }

@@ -25,6 +25,10 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+.container-90{
+  max-width: 90%;
+  margin: 0 auto;
+}
 .container-large{
   max-width: 100%;
   margin: 0 auto;
