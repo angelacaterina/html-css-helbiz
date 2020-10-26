@@ -75,8 +75,32 @@ a{
 .hero_text p{
   margin: 20px 0 15px;
   line-height: 2;
-  text-shadow: 2px 2px 2px #777777;
+  text-shadow: 2px 2px 1px #777777;
 }
 .hero_text img{
   width: 150px;
+}
+
+/* main_content */
+#models{
+  padding: 2.5rem;
+}
+#models .card{
+  padding: 90px 40px 0;
+  background: #fafafa;
+  text-align: center;
+}
+#models p {
+  padding: 20px;
+  font-size: 23px;
+}
+#models a {
+  text-transform: capitalize;
+}
+.logo_title{
+  height: 21px;
+}
+
+#models .card img{
+  max-width: 100%;
 }
